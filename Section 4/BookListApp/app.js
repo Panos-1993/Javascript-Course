@@ -32,7 +32,7 @@ function getTasks() {
     }
 
     tasks.forEach(function(task){
-        // Create li element
+    // Create li element
     const li = document.createElement('li');
     // Add class
     li.className = 'collection-item';
@@ -46,7 +46,6 @@ function getTasks() {
     link.innerHTML = '<i class="fa fa-remove"></li>';
     // Append the link to li
     li.appendChild(link);
-
     // Append the li to the ul
     taskList.appendChild(li);
 });
