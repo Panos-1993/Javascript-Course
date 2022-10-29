@@ -54,7 +54,7 @@
         }
       })
 
-    const resData = await response.json();
+    const resData = await 'Resource Deleted';
     return resData;
   }
  }
